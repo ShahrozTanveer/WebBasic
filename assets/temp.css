@@ -1,0 +1,52 @@
+body{
+
+
+    background-color:green;
+    color: crimson;
+}
+
+div.content {
+    color: white;
+    background-color: rgb(54, 53, 47);
+    border: 1px solid white;
+    margin: 10px;
+    /* top/bottom left/right*/
+    padding:20px;
+    font-family: 'Times New Roman', Times, serif;
+    
+
+
+}
+
+.content h1{
+    color: rgb(175, 4, 4);
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 5px 3px 5px black; /* horizontal vertical blur color */
+}
+.content p{
+    color: pink;
+    letter-spacing: 2px;
+    line-height:1.5;
+    /* text-align: justify; */
+    word-spacing: 5px;
+}
+
+
+.content a{
+    color: white;
+    text-decoration: none;
+    background-color:black;
+    padding:20px;
+   border: 1px solid #eee;
+   border-radius: 5px;
+
+    
+}
+.content a:hover{
+    color: black ;
+    background-color:white;
+   border: 1px solid black;
+   cursor: pointer;
+
+}

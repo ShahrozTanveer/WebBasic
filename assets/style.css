@@ -50,3 +50,26 @@ body > div.content > h1{ /* copy selector from chrome dev tools*/
     cursor: crosshair;
 
 }
+.wrapper ul{
+    list-style-type: square;
+    color: black;
+}
+.wrapper ol{
+    list-style-type: upper-alpha;
+}
+
+.table-wrapper table{
+    background-color: black;
+   
+}
+.table-wrapper th{
+    background-color:yellow;
+    color: black;
+    border: 1px solid red;
+    padding: 5px;
+}
+.table-wrapper td{
+    color: black;
+    background-color: #eee;
+    text-align:left
+}
