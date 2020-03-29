@@ -78,6 +78,7 @@ console.log("foreach");
 arr.forEach(function(e){
 console.log(e);
 })
+ 
 
 // python
 // for e in arr:

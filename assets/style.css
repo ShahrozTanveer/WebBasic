@@ -8,7 +8,7 @@ body{ /*selecting body*/
     margin: 10px; /* outside distane */
     padding: 10px;/* distance between inside (element inside ) */
     width:96%;
-    height: 280px;
+    height: 50%;
 }
 .wrapper{
 
@@ -41,6 +41,11 @@ body > div.content > h1{ /* copy selector from chrome dev tools*/
     padding:20px;
     background-color: black;
     display: inline-block;
+    border: 2px solid #eee;
+    border-radius:20px;
+    width: 90px;
+    text-align: center;
+    font-size:40px;
     
 }
 .content a:hover  {
@@ -48,6 +53,7 @@ body > div.content > h1{ /* copy selector from chrome dev tools*/
     padding:20px;
     background-color: bisque;
     cursor: crosshair;
+    border: 2px solid black;
 
 }
 .wrapper ul{
@@ -72,4 +78,27 @@ body > div.content > h1{ /* copy selector from chrome dev tools*/
     color: black;
     background-color: #eee;
     text-align:left
+}
+.contact-form{
+    background-color:rgb(0, 0, 0);
+    border: 3px solid #eee;
+    margin-top: 10px;
+    text-align: center;
+}
+.contact-form h1{
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px rgb(148, 16, 16) ;
+}
+.contact-form input{
+    margin-top: 10px;
+    border-radius: 5px;
+    padding-left: 5px;
+    border: 2px solid rgb(148, 16, 16);
+
+   
+}
+.contact-form input[type="submit"]{
+    border: 2px solid #eee;
+
 }
