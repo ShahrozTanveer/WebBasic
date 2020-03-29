@@ -37,17 +37,17 @@ else{
 let i=10
 let j="10"
 if(i==j){
-    console.log("true");
+    console.log("true ==");
 }
 else{
     console.log("false");
 }
 
 if(i===j){ //===
-    console.log("true");
+    console.log("true ===");
 }
 else{
-    console.log("false");
+    console.log("false ===");
 }
 // check data types
 
@@ -74,10 +74,28 @@ console.log("this is array");
 for (let k = 0; k <arr.length;k++){// traditional for loop
     console.log(arr[k]);
 }
-console.log("foreach");
-arr.forEach(function(e){
-console.log(e);
-})
+
+
+function addTwoNumbers(a,b){
+    return a+b
+}
+
+
+
+let number1=4;
+let number2=5;
+let retNumber=addTwoNumbers(number1,number2)
+alert(`number a is ${number1} and b is ${number2} and result is ${retNumber}`) // Template string
+
+const valueOfPi = Math.PI
+console.log(valueOfPi);
+console.log(Math.min(1,20,4));
+
+
+// console.log("foreach");
+// arr.forEach(function(e){
+// console.log(e);
+// })
  
 
 // python
