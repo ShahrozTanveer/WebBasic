@@ -1,6 +1,6 @@
 body{ /*selecting body*/
     color: rgb(204, 198, 198); /* font color changed */
-    background-color: rgb(66, 62, 62); /* change background color */
+    /* background-color: rgb(66, 62, 62); change background color */
 }
 
 .content{
@@ -102,4 +102,49 @@ body > div.content > h1{ /* copy selector from chrome dev tools*/
     border: 2px solid #eee;
     width:100px;
 
+}
+.post{
+    border: 3px solid rgb(0, 0, 0);
+    color:black;
+}
+.post h1{
+    margin-left: 10px;
+    font-size: 1.5em;
+    text-decoration: underline;
+    font-style: bold;
+    color:#08070C;
+}
+.post img{
+    width:50%;
+    float:right;
+    margin: 0px 10px;
+
+}
+.post p{
+    margin-left: 12px;
+    text-align:justify;
+}
+#git{
+    color: rgb(143, 43, 18);
+   
+}
+
+
+.post-2{
+    margin-top: 10px;
+    color: black;
+    border: 3px solid black;
+}
+.post-2 .post-2-image {
+    /* float: right; */
+    width: 65%;
+    margin-left: 15%;
+    padding-left: 5px;
+
+}
+.post-2 .post-2-image img{
+    width:100%;
+}
+.post-2 .post-2-details{
+ columns:  3;
 }
