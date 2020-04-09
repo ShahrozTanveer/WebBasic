@@ -1,6 +1,7 @@
 body{ /*selecting body*/
     color: rgb(204, 198, 198); /* font color changed */
-    /* background-color: rgb(66, 62, 62); change background color */
+    background-color: rgb(66, 62, 62); 
+    /* change background color */
 }
 
 .content{
