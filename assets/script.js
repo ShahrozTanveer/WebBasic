@@ -92,6 +92,8 @@ function addTwoNumbers(a,b){
 
 
 
+
+
 let number1=4;
 let number2=5;
 let retNumber=addTwoNumbers(number1,number2)
@@ -137,6 +139,20 @@ function headerClicked() {
     }
 }
 
+
+
+
 const header_element= document.querySelector("body .content h1")
 header_element.addEventListener('click',headerClicked )
 
+
+const liElement= document.querySelectorAll("body .wrapper ul li")
+
+
+
+liElement.forEach((e,k)=>{//here e is each elememt in in list and k is its index
+    if(k%2===0){//change color of even indexed element
+    e.style.color="#eee"
+    }
+   
+})
